@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.schedule {
+  max-width: 600px;
+  margin: auto;
+}
+
+.day {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  list-style-type: square;
+}
+
+
+.day li:first-child {
+  font-weight: bold;
+  background-color: #ffe4e1;
+}
+
+.day li:last-child {
+  font-style: italic;
+  background-color: #e6e6fa;
+}
+
+.day li:nth-child(2) {
+  text-decoration: underline;
+  background-color: #e0ffff;
+}
+
+.day li:nth-of-type(odd) {
+  border-left: 5px solid #ccc;
+}
+
+.day li:not(:first-child) {
+  margin-top: 5px;
+}
+
+
+.day li:hover {
+  background-color: #cceeff;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+.day li:active {
+  background-color: #99ccff;
+}
+
+.day li:focus {
+  outline: 2px solid #0000ff;
+}
+
+.day li:visited {
+  color: purple;
+}
+
+.day li:target {
+  background-color: yellow;
+}
+
+.monday {
+  background-color: #fff0f0;
+}
+
+.tuesday {
+  background-color: #f0fff0;
+}
+
+.wednesday {
+  background-color: #f0f8ff;
+}
+
+.thursday {
+  background-color: #fffacd;
+}
+
+.friday {
+  background-color: #f5f5dc;
+}
